@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.image-list-small {    
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center; 
+  max-width: 900px;
+  padding: 0;
+}
+.image-list-small li {
+  display: inline-block;
+  width: 200px;
+  margin: 0 10px 15px;
+}
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border: 6px solid #9e6b13;
+  outline: 1px solid #c27618;
+  box-shadow: 0 2px 1px rgb(165, 116, 38);
+  transition: .25s;
+}
+.image-list-small li img{
+    width: 100%; /* To make the images responsive */
+    height: auto;
+}
+.image-list-small li > a:hover{
+    transform: scale(1.1);
+    transition: .25s;
+}
+.image-list-small .details {
+  margin-top: 13px;
+}
+.image-list-small .details h3 {
+  display: block;
+  font-size: 16px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.image-list-small .details .image-author {
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.image-list-small-a {    
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center; 
+  max-width: 640px;
+  padding: 0;
+}
+.image-list-small-a li {
+  display: inline-block;
+  width: 200px;
+  margin: 0 12px 30px;
+}
+.image-list-small-a li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  transition: .25s;
+}
+.image-list-small-a li img{
+    width: 100%; /* To make the images responsive */
+    height: auto;
+}
+.image-list-small-a li > a:hover{
+    transform: scale(1.1);
+    transition: .25s;
+}
+.image-list-small-a .details {
+  margin-top: 13px;
+}
+.image-list-small-a .details h3 {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.image-list-small-a .details h3 a {
+  color: #303030;
+  text-decoration: none;
+}
+p {
+  background-image: url('bg2.jpg');
+}
+#grad1 {
+  height: fit-content;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#9FD4FB, #83EDAB, #DBAF52);
+}
+  </style>
+  </head>
+  <body>
+  <div id="grad1">
+  <ul class="image-list-small-a">
+    <li>
+        <br>
+        <a href="#" style="background-image: url('plant/sam.png');"></a>
+        <div class="details">
+          <h3><a href="#">Sam</a></h3>
+        </div>
+      </li>
+      </ul>
+    <br>
+    <ul class="image-list-small">
+    <li>
+      <a href="#" style="background-image: url('plant/cherry.png');"></a>
+      <div class="details">
+        <p class="image-author">Cherry</p>
+      </div>
+    </li>
+    <li>
+      <a href="#" style="background-image: url('plant/onion.png');"></a>
+      <div class="details">
+        <p class="image-author">Onion</p>
+      </div>
+    </li>
+    <li>
+      <a href="#" style="background-image: url('plant/rose.png');"></a>
+      <div class="details">
+        <p class="image-author">Rose</p>
+      </div>
+    </li>
+    <li>
+      <a href="#" style="background-image: url('plant/tulip.png');"></a>
+      <div class="details">
+        <p class="image-author">Tulip</p>
+      </div>
+    </li>
+</ul>
+</div>
+</body>
+</html>
